@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  --white: #ffffff;
+  --lightgrey: #d6e2f0;
+  --grayishblue: #7b879d;
+  --darkblue: #1f3251;
+}
+* {
+  color: var(--black);
+  cursor: pointer;
+  font-family: "Outfit";
+  font-size: 15px;
+  font-weight: 400, 700;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #d6e2f0;
+}
+
+.whole-container {
+  background-color: var(--white);
+  border-radius: 24px;
+  box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.25);
+  width: 320px;
+  padding: 16px 16px 40px 16px;
+  margin-top: 100px;
+}
+.qr-code-container img {
+  border-radius: 24px;
+  width: 100%;
+  height: auto;
+}
+.container-one {
+  text-align: center;
+}
+.container-one h1 {
+  font-size: 21px;
+  width: 260px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+.container-one p {
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
